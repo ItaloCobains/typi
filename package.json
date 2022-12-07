@@ -1,6 +1,6 @@
 {
   "name": "@italocobains/typi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CLI to create my typescript projects",
   "main": "src/index.js",
   "bin": {
