@@ -6,13 +6,9 @@ function parseArgumentsIntoOptions(rawArgs) {
     const args = arg(
         {
             "--git": Boolean,
-            "--test": Boolean,
-            "--lint": Boolean,
             "--yes": Boolean,
             "--install": Boolean,
             "-g": "--git",
-            "-t": "--test",
-            "-l": "--lint",
             "-y": "--yes",
             "-i": "--install",
         },
