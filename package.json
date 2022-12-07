@@ -1,41 +1,45 @@
 {
-    "name": "@italocobains/typi",
-    "version": "1.0.0",
-    "description": "A CLI to create my typescript projects",
-    "main": "src/index.js",
-    "bin": {
-        "@italocobains/typi": "bin/typi",
-        "typi": "bin/typi"
-    },
-    "publishConfig": {
-        "access": "public"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ItaloCobains/typi.git"
-    },
-    "keywords": [
-        "cli",
-        "typi",
-        "typescript"
-    ],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ItaloCobains/typi/issues"
-    },
-    "homepage": "https://github.com/ItaloCobains/typi#readme",
-    "dependencies": {
-        "@types/execa": "^0.9.0",
-        "arg": "^5.0.2",
-        "chalk": "^4.1.2",
-        "esm": "^3.2.25",
-        "inquirer": "^8.0.0",
-        "listr": "^0.14.3",
-        "ncp": "^2.0.0",
-        "pkg-install": "^1.0.0"
-    }
+  "name": "@italocobains/typi",
+  "version": "1.0.0",
+  "description": "A CLI to create my typescript projects",
+  "main": "src/index.js",
+  "bin": {
+    "@italocobains/typi": "bin/typi",
+    "typi": "bin/typi"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItaloCobains/typi.git"
+  },
+  "keywords": [
+    "cli",
+    "typi",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItaloCobains/typi/issues"
+  },
+  "homepage": "https://github.com/ItaloCobains/typi#readme",
+  "dependencies": {
+    "@types/execa": "^0.9.0",
+    "arg": "^5.0.2",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "release-it": "^15.5.1"
+  }
 }
